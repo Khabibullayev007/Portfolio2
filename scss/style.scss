@@ -1,0 +1,68 @@
+@use "navbar";
+@use 'homepage';
+@use 'marque';
+@use 'about_me';
+@use 'skills';
+@use 'projects';
+@use 'footer';
+@use 'media';
+
+$font-navbar: "Lobster Two" cursive;
+$font-homepage: 'Cormorant Garamond';
+$font-button: 'DM Serif Text';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+
+
+}
+#Navbar {
+  font-family: $font-navbar;
+}
+
+.container {
+  margin: 0px 120px;
+  height: fit-content;
+}
+#homepage{
+    font-family: $font-homepage;
+    .btn_2{
+        font-family: $font-button;
+    }
+
+}
+#marque{
+  h1{
+    font-family: $font-homepage;
+  }
+}
+#about_me{
+  font-family: $font-homepage;
+  .my_pic{
+
+    h4{
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+      font-family:'Times New Roman', Times, serif;
+    }
+  }
+}
+
+
+
+#projects{
+  margin-bottom: 50px;
+}
+#Contacts{
+  margin-bottom: 80px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

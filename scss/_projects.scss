@@ -1,0 +1,83 @@
+#projects {
+  margin-top: 250px;
+  box-shadow: rgb(2, 130, 95) 0px 4px 16px, rgb(0, 138, 92) 0px 8px 24px, rgb(0, 125, 79) 0px 16px 56px;
+  padding: 80px 50px;
+  border-radius: 20px;
+ 
+
+
+  h1 {
+    color: orange;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .project_card{
+
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 80px;
+ 
+    
+  
+  }
+  .project_text {
+    color: grey;
+    width: 500px;
+   text-align: center;
+   margin-left:390px;
+   font-size: 25px;
+   margin-top: 50px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .cards2{
+    width: 350px;
+    padding: 25px 25px;
+  background: transparent;
+  color: aliceblue;
+    border-radius: 20px;
+    border: 2px solid white;
+ 
+
+
+
+    img{
+        border-radius: 20px;
+        width: 300px;
+
+    }
+    .project_img{
+       height: 200px;
+       width: 200px;
+       margin-left: 50px;
+    
+    }
+   
+        .text {
+            color: white;
+            text-shadow: 0 0 10px rgba(0,0,0,0.5); // subtle shadow
+            padding-top: 20px;
+          
+
+        h2{
+            text-align: center;
+        }
+  }
+}
+}
+
+
+.project_card .cards2 {
+    transform: scale(1);
+    transition: transform 0.5s ease;
+  
+    &:hover {
+      transform: scale(1.08); // scales only the card
+      transition: transform 0.8s ease;
+      box-shadow: rgb(0, 108, 108) 0px 12px 28px 0px, rgb(255, 255, 255) 0px 2px 4px 0px, rgb(0, 104, 111) 0px 0px 0px 1px inset;
+    }
+  }

@@ -1,0 +1,94 @@
+.Navbar {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+  background-color: #1B1B1B;
+  padding: 10px;
+  border-radius: 12px;
+}
+.Navbar .Logo_png {
+  width: 50px;
+  border-radius: 30px;
+}
+.Navbar ul {
+  display: flex;
+  gap: 50px;
+}
+.Navbar ul li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.Navbar ul li a {
+  text-decoration: none;
+  color: #9C9C9C;
+  font-size: 18px;
+}
+.Navbar .btn_1 {
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(156, 66, 241);
+  border-radius: 1px 16px 16px 2px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.homepage {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.homepage .text h1 {
+  color: white;
+  font-size: 45px;
+}
+.homepage .text p {
+  color: #9c9c9c;
+  font-size: 18px;
+}
+.homepage .text .btn_2 {
+  padding: 15px 50px;
+  border: none;
+  background-color: #62ba1b;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.homepage .img .My_img {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: relative;
+  z-index: 2;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.Navbar {
+  font-family: "Lobster Two" cursive;
+}
+
+.container {
+  margin: 0px 150px;
+}
+
+.homepage {
+  font-family: "Cormorant Garamond";
+}
+.homepage .btn_2 {
+  font-family: "DM Serif Text";
+}
+
+/*# sourceMappingURL=style.css.map */

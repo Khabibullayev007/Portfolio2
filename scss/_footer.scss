@@ -1,0 +1,83 @@
+#Contacts {
+  margin-top: 200px;
+  background-color: transparent;
+  padding: 60px 40px;
+  border: 1px solid rgb(0, 255, 123);
+  border-radius: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+  footer {
+    margin: 0px 100px;
+  }
+
+  .back_to_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .name {
+      h1 {
+        color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        margin-left: 50px;
+      }
+    }
+
+    img {
+      border-radius: 60%;
+      width: 100px;
+      h3 {
+        color: white;
+      }
+    }
+    .text_topBtn {
+      color: white;
+      display: flex;
+      margin-top: 10px;
+      font-family: monospace;
+    }
+  }
+  .main_text {
+    margin-top: 100px;
+    h1 {
+      color: rgb(80, 80, 80);
+      font-size: 180px;
+      font-family: fantasy;
+      text-align: center;
+    }
+    h2 {
+      color: rgb(255, 167, 2);
+      font-family: sans-serif;
+      margin-left: 50px;
+      font-size: 30px;
+    }
+  }
+
+  .links {
+    .link_buttons {
+      display: flex;
+      gap: 50px;
+      margin-top: 50px;
+      margin-left: 50px;
+      transition: 0.6s;
+      
+
+      :hover {
+        background-color: #008261;
+        transition: 0.6s;
+        transform: translate(0px, -10px);
+      }
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 25px;
+        border: 2px solid white;
+        padding: 15px 40px;
+        border-radius: 10%;
+        box-shadow: rgb(56, 108, 163) 0px 20px 30px -10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+$width-img: 200px;
+$height-img:60px;
+
+#marque {
+    margin-top: 150px;
+    overflow: hidden;
+  }
+  
+  #marque h1 {
+    color: #ffffff; 
+  text-shadow:
+    5px 5px 5px grey;
+
+    margin-left: 40px;
+  }
+  
+  .track {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+    width: max-content;
+    margin-top: 50px;
+  animation: scroll 25s linear infinite;
+  }
+  
+  .Logo {
+    width: $width-img;
+    height: $height-img;
+    object-fit: contain;
+  }
+  .click{
+    width: 250px;
+    height: 210px;
+  }
+  
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
