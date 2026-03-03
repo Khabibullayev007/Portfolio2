@@ -529,6 +529,9 @@
 }
 
 @media (max-width: 1200px) {
+  .container {
+    scroll-behavior: smooth;
+  }
   #Navbar {
     margin-left: 80px;
     width: 800px;
@@ -671,6 +674,9 @@
   }
 }
 @media (max-width: 1024px) {
+  .container {
+    scroll-behavior: smooth;
+  }
   #Navbar {
     width: 700px;
     margin-left: 25px;
@@ -785,6 +791,9 @@
   }
 }
 @media (max-width: 768px) {
+  .container {
+    scroll-behavior: smooth;
+  }
   #Navbar {
     margin-left: -20px;
     width: 600px;
