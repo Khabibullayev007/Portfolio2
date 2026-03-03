@@ -618,13 +618,14 @@
       position: absolute;
       top: 540px;
       width: 90%;
+      left: 30px;
     }
   }
 
   #marque {
     width: 140%;
     margin-top: 300px;
-margin-left: -70px;
+
 
     .track {
       padding: 0px 30px;
@@ -642,7 +643,7 @@ margin-left: -70px;
     background: transparent;
 
     box-shadow: none;
-    margin-left: -120px;
+    margin-left: -80px;
 
     margin-top: 80px;
 
@@ -678,7 +679,7 @@ margin-left: -70px;
       margin-left: -15px;
       .information {
         h1 {
-          font-size: 6vw;
+          font-size: 13px;
           
         }
       }
@@ -727,11 +728,10 @@ margin-left: -70px;
       margin-left: -10px;
     }
     .project_text {
-      font-size: 12px;
+      font-size: 10px;
       width:300px;
       margin-left: -60px;
       margin-top: 30px;
-
     }
 
     .project_card {
