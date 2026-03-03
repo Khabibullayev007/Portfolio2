@@ -1144,12 +1144,12 @@
   }
   #Contacts .main_text h2 {
     width: 350px;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: -20px;
   }
   #Contacts .main_text .main {
     margin-left: -15px;
-    font-size: 6vw;
+    font-size: 7vw;
   }
   #Contacts .links {
     width: 100%;
@@ -1165,7 +1165,7 @@
   }
   #Contacts .links .link_buttons a {
     width: 130px;
-    height: 90px;
+    height: 60px;
     justify-content: center;
     font-size: 25px !important;
     display: flex;
