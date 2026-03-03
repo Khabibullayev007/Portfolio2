@@ -61,6 +61,15 @@ body {
 }
 #Contacts{
   margin-bottom: 80px;
+
+  footer{
+    .main_text{
+      h1{
+        font-family: $font-homepage;
+      }
+    }
+  }
+
 }
 
 html {
