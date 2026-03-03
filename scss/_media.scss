@@ -564,6 +564,7 @@
 @media (max-width: 414px) {
   .container {
     max-width: 414px;
+    scroll-behavior: smooth;
   }
   #Navbar {
     margin-left: -120px;
