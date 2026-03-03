@@ -566,9 +566,9 @@
     max-width: 414px;
   }
   #Navbar {
-    margin-left: -115px;
+    margin-left: -120px;
 
-    width: 110%;
+    width: 115%;
     box-shadow: none;
     background-color: transparent;
     .Logo_png {
@@ -578,7 +578,7 @@
       width: 150%;
       li {
         a {
-          font-size: 12px;
+          font-size: 11px;
         }
       }
     }
@@ -623,8 +623,9 @@
   }
 
   #marque {
-    width: 140%;
+    width: 350px;
     margin-top: 300px;
+    margin-left: -60px;
 
 
     .track {
@@ -675,11 +676,12 @@
     background: none;
     width: 100%;
     padding: 0 15px;
+    margin-top: 100px;
     .skills_text {
-      margin-left: -15px;
+    
       .information {
         h1 {
-          font-size: 13px;
+          font-size: 15px;
           
         }
       }
@@ -736,7 +738,7 @@
 
     .project_card {
       width: 350px;
-      margin-left: -60px;
+      margin-left: -70px;
       display: grid;
       grid-template-columns: repeat(1, 1fr);
       overflow: hidden;

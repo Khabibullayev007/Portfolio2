@@ -957,8 +957,8 @@
     max-width: 414px;
   }
   #Navbar {
-    margin-left: -115px;
-    width: 110%;
+    margin-left: -120px;
+    width: 115%;
     box-shadow: none;
     background-color: transparent;
   }
@@ -969,7 +969,7 @@
     width: 150%;
   }
   #Navbar ul li a {
-    font-size: 12px;
+    font-size: 11px;
   }
   #Navbar .btn_1 {
     padding: 3px 20px;
@@ -1007,8 +1007,9 @@
     left: 30px;
   }
   #marque {
-    width: 140%;
+    width: 350px;
     margin-top: 300px;
+    margin-left: -60px;
   }
   #marque .track {
     padding: 0px 30px;
@@ -1051,12 +1052,10 @@
     background: none;
     width: 100%;
     padding: 0 15px;
-  }
-  #Skills .skills_text {
-    margin-left: -15px;
+    margin-top: 100px;
   }
   #Skills .skills_text .information h1 {
-    font-size: 13px;
+    font-size: 15px;
   }
   #Skills .skills_text .intro_info {
     margin-left: 30px;
@@ -1104,7 +1103,7 @@
   }
   #projects .project_card {
     width: 350px;
-    margin-left: -60px;
+    margin-left: -70px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     overflow: hidden;
