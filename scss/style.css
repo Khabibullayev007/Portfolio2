@@ -1054,11 +1054,14 @@
     padding: 0 15px;
     margin-top: 100px;
   }
+  #Skills .skills_text {
+    width: 300px;
+  }
   #Skills .skills_text .information h1 {
     font-size: 15px;
   }
   #Skills .skills_text .intro_info {
-    margin-left: 30px;
+    margin-left: 35px;
   }
   #Skills .skills_text .intro_info p {
     font-size: 10px;
@@ -1088,7 +1091,7 @@
     width: 100%;
     background: none;
     box-shadow: none;
-    margin-top: 100px;
+    margin-top: 60px;
   }
   #projects h1 {
     width: 200px;
